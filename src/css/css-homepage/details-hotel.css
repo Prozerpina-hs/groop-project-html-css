@@ -1,0 +1,92 @@
+/* Elena */
+.details-hotel {
+    padding-top: 24px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.76);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../img/homepage-image/room_swiper/bcg_hotel_414.jpg);
+}
+.hotel-name {
+    margin-bottom: 12px;
+    text-align: center;
+    
+    font-family: 'Film P3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.07;
+    letter-spacing: 0.3em;
+
+    color: var(--primary-white-color);
+}
+
+.hotel-title {
+    margin-right: 120px;
+    text-align: right;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+.hotel-text {
+    margin-top: 20px;
+    margin-left: 32px;
+    width: 243px;
+    text-align: left;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+
+    color: #BABABA;
+}
+.buttons {
+    margin-top: 32px;
+    
+}
+
+.hotel_btnbooking,
+.hotel_btnprices {
+    display: block;
+    margin: 0 auto;
+    width: 236px;
+    height: 48px;
+    
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--accent-yellow-color);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    padding: 14px 24px;
+}
+.hotel_btnprices {
+    margin-top: 16px;
+}
+.room_swiper {
+    max-width: 414px;
+}
+
+.swiper-slide {
+    width: 274px;
+    height: 270px;
+}
+.swiper {
+  width: 98px;
+  height: 32px;
+}
